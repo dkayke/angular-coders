@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+        "id": 1,
+        "name": "TV",
+        "price": 3999.99
+    },
+    {
+        "id": 2,
+        "name": "Celular",
+        "price": 1499.00
+    },
+    {
+        "id": 3,
+        "name": "Notebook",
+        "price": 5249.35
+    },
+    {
+        "id": 4,
+        "name": "Smart TV LED 70\" LG 70UM7370 ",
+        "price": 4899.99
+    }
+  ]
+}
