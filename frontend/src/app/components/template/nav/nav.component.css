@@ -1,0 +1,19 @@
+.sidenav {
+  width: 200px;
+}
+
+.nav-list {
+  padding-top: 2px;
+}
+
+.nav-list:first-child {
+  padding-top: 10px;
+}
+
+.nav-list a {
+  font-size: 1em;
+}
+
+.nav-list i {
+  padding-right: 10px;
+}

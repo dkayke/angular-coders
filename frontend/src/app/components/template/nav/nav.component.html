@@ -1,0 +1,10 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" color="primary" mode="side" fixedTopGap="64" fixedInViewport opened>
+        <mat-nav-list class="nav-list" *ngFor="let menu of itemsMenu">
+            <a mat-list-item>
+                <i class="material-icons">arrow_right</i>
+                {{menu}}
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+</mat-sidenav-container>
