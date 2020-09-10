@@ -11,9 +11,14 @@
 }
 
 .nav-list a {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .nav-list i {
   padding-right: 10px;
+}
+
+.content {
+  padding: 16px;
+  background: white;
 }
