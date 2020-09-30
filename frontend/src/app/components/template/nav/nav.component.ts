@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 
+type Menu = {
+  title: string,
+  path: string
+}
+
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-
   itemsMenu = [
-    "Painel",
-    "Produtos"
+    {title: "Painel", path: '' },
+    {title: "Produtos", path: 'products'}
   ]
 
   constructor() { 
